@@ -1,7 +1,22 @@
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    
+}
+
+.Equilibrium {
+    width: 350px;
+    
 }
