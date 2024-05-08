@@ -10,13 +10,34 @@ body {
     align-items: center;
 }
 
+h1 {
+    color: white;
+}
 article {
     background-color: hsl(216, 50%, 16%);
-    width: 400px;
+    width: 275px;
+    border-radius: 10px;
+    padding-left: 25px;
     
 }
 
+.creator {
+    width: 40px;
+    border: 5px white;
+}
+
 .Equilibrium {
-    width: 350px;
+    width: 250px;
+    border-left: 25px;
+    border-right: 25px;
+    border-top: 35px;
+    border-radius: 10px;
+}
+
+tr {
+    border-bottom: 1px solid gray;
+}
+.days {
     
+    border-left: 25px;
 }
