@@ -4,14 +4,14 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [Author](#author)
 
 
 ## Overview
@@ -30,6 +30,8 @@ Users should be able to:
 
 ## My process
 
+I think it's important to use the proper html tags to get the structor right. Next style the document with css to get the look correct.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -39,16 +41,22 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I learned how to use the proper html tags for certain elements. Using the correct tags makes styling a lot easier.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<table> 
+  <img src="images/icon-ethereum.svg">
+  <tr>0.041 ETH</tr>
+  <img src="images/icon-clock.svg">
+  <tr class="time">3 days left</tr>
+ </table>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.article {
+    background-color: hsl(216, 50%, 16%);
+    width: 275px;
+    border-radius: 10px;
+    padding-left: 25px;
 }
 ```
 ```js
@@ -66,6 +74,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@georgekrause](https://www.frontendmentor.io/profile/georgekrause)
+- Twitter - [@gkrause_dev](https://x.com/gkrause_dev)
+- Facebook - [@gkrause3](https://www.facebook.com/gkrause3)
