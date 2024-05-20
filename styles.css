@@ -18,7 +18,6 @@ article {
     width: 275px;
     border-radius: 10px;
     padding-left: 25px;
-    
 }
 
 .creator {
@@ -58,8 +57,7 @@ p {
     border-bottom: 1px solid gray;
     padding-bottom: 20px;
 }
-
-.creation {
-    display: inline-block;
-    padding-top: 30px;
+.days {
+    
+    border-left: 25px;
 }
