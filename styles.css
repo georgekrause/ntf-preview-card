@@ -16,6 +16,7 @@ h1 {
 article {
     background-color: hsl(216, 50%, 16%);
     width: 275px;
+    margin-top: 50px;
     border-radius: 10px;
     padding-left: 25px;
     box-shadow: 5px 10px 5px 20px hsl(216, 68%, 9%);
